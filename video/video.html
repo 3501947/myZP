@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>族蚂资源管理</title>
+    <link rel="icon" href="../imgs/title.png" type="image/x-icon">
+    <link rel="stylesheet" href="video.css">
+    <link rel="stylesheet" href="powerange.css">
+</head>
+
+<body>
+    <div class="choiseBox_bottom">
+        <div class="zm_addmvbox">
+            <video class="zm-video" src="http://image.zuma.com/upload/910761495250111148.mp4"></video>
+            <div class="zm-video-bottom">
+                <!-- 播放暂停按钮 -->
+                <div class="zm-video-bottom-play">
+                    <div id="play">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="50px" height="50px">
+                            <defs>
+                                <style>
+                                    .cls-1 {
+                                        opacity: 0;
+                                    }
+
+                                    .cls-10 {
+                                        fill: #000000;
+                                    }
+
+                                    .cls-11 {
+                                        fill: #000000;
+                                    }
+
+                                    .cls-4 {
+                                        opacity: 1;
+                                    }
+
+                                    .cls-12 {
+                                        fill: #ffffff;
+                                    }
+                                </style>
+                            </defs>
+                            <title>后台播放控件</title>
+                            <g id="图层_2" data-name="图层 2">
+                                <g id="图层_1-2" data-name="图层 1">
+                                    <g class="cls-1">
+                                        <path class="cls-10" d="M60,119.5A59.5,59.5,0,1,1,119.5,60,59.57,59.57,0,0,1,60,119.5Z" />
+                                        <path class="cls-11" d="M60,1A59,59,0,1,1,1,60,59.07,59.07,0,0,1,60,1m0-1a60,60,0,1,0,60,60A60,60,0,0,0,60,0Z" />
+                                    </g>
+                                    <g class="cls-4">
+                                        <path class="cls-12" d="M87.57,61a1.06,1.06,0,0,0,0-2L45.45,34.68c-1-.55-1.73-.1-1.73,1V84.32c0,1.1.78,1.55,1.73,1Z" />
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                    <div id="pause">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="50px">
+                            <defs>
+                                <style>
+                                    .cls-1 {
+                                        opacity: 0;
+                                    }
+
+                                    .cls-10 {
+                                        fill: #000000;
+                                    }
+
+                                    .cls-11 {
+                                        fill: #000000;
+                                    }
+
+                                    .cls-12 {
+                                        fill: #ffffff;
+                                    }
+                                </style>
+                            </defs>
+                            <title>暂停，停止</title>
+                            <g id="图层_2" data-name="图层 2">
+                                <g id="图层_1-2" data-name="图层 1">
+                                    <g class="cls-1">
+                                        <path class="cls-10" d="M60,119.5A59.5,59.5,0,1,1,119.5,60,59.57,59.57,0,0,1,60,119.5Z" />
+                                        <path class="cls-11" d="M60,1A59,59,0,1,1,1,60,59.07,59.07,0,0,1,60,1m0-1a60,60,0,1,0,60,60A60,60,0,0,0,60,0Z" />
+                                    </g>
+                                    <rect class="cls-12" x="39.88" y="39.81" width="17.38" height="40.38" rx="2" ry="2" />
+                                    <rect class="cls-12" x="62.75" y="39.81" width="17.38" height="40.38" rx="2" ry="2" />
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+                <!-- 进度条 -->
+                <div class="zm-video-bottom-pro">
+                    <input type="text" class="js-min-max-start" style="display: none;">
+                </div>
+                <!-- 音量 -->
+                <div class="zm-video-bottom-vol">
+                    <svg class="svg1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" t="1504180559031" class="icon"
+                        style="" viewBox="0 0 1024 1024" version="1.1" p-id="58117" width="30" height="30">
+                        <defs>
+                            <style type="text/css" />
+                        </defs>
+                        <path d="M481.2 126.5c50.4-39.2 89.6-18.2 89.6 44.8v686c0 60.2-39.2 78.4-84 39.2L285.2 731.4H174.6C111.6 731.4 64 681 64 620.8V395.3c0-60.2 50.4-110.6 110.6-110.6h105l201.6-158.2zM687 692.2c-12.6 0-21-5.6-26.6-12.6-18.2-18.2-18.2-39.2 0-54.6 65.8-65.8 65.8-165.2 0-231-18.2-18.2-18.2-39.2 0-54.6 18.2-18.2 39.2-18.2 57.4 0 102.2 92.4 102.2 242.2 0 336-15.4 14-18.2 16.8-30.8 16.8z m110.6 63c-18.2-18.2-18.2-39.2 0-54.6 105-105 105-270.2 0-375.2-18.2-18.2-18.2-39.2 0-54.6 18.2-18.2 39.2-18.2 57.4 0 65.8 65.8 105 149.8 105 236.6S920.8 683.8 855 744c-5.6 5.6-18.2 12.6-26.6 12.6-12.6 8.4-23.8 1.4-30.8-1.4z"
+                            p-id="58118" />
+                    </svg>
+                    <svg class="svg2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 846.08 753.91"
+                        width="28" height="27">
+                        <defs>
+                            <style>
+                                .cls-xp {
+                                    fill: #ffffff;
+                                }
+
+                                .cls-2 {
+                                    clip-path: url(#clip-path);
+                                }
+                            </style>
+                            <clipPath id="clip-path">
+                                <rect class="cls-xp" x="0.12" y="0.07" width="846.88" height="754.8" />
+                            </clipPath>
+                        </defs>
+                        <title>静音</title>
+                        <g id="图层_2" data-name="图层 2">
+                            <g id="图层_1-2" data-name="图层 1">
+                                <g class="cls-2">
+                                    <path d="M737.28,371.11l97.28-97.28a39.82,39.82,0,0,0-56.32-56.32L681,314.79l-97.28-97.28a39.82,39.82,0,1,0-56.32,56.32l92.16,97.28-97.28,97.28a39.82,39.82,0,0,0,56.32,56.32l97.28-97.28,97.28,97.28a39.82,39.82,0,1,0,56.32-56.32ZM384,17.83c46.08-35.84,81.92-15.36,81.92,41v640c0,56.32-35.84,71.68-76.8,35.84L204.8,581H102.4C46.08,581,0,534.95,0,478.63V268.71c0-56.32,46.08-102.4,102.4-102.4h97.28Zm0,0"
+                                    />
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                    <div class="zm-video-bottom-bgc">
+                        <input type="text" class="js-min-max-clo" style="display: none;">
+                    </div>
+                </div>
+                <!-- 全屏 -->
+                <div class="zm-video-bottom-enl">
+                    <svg class="zm-video-bottom-enl" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 107 104" width="25px" height="25px">
+                        <defs>
+                            <style>
+                                .cls-xp {
+                                    fill: #ffffff;
+                                }
+                            </style>
+                        </defs>
+                        <title>全屏最大化</title>
+                        <g id="图层_2" data-name="图层 2">
+                            <g id="图层_1-2" data-name="图层 1">
+                                <path class="cls-xp" d="M51.17,104H6.5A6.51,6.51,0,0,1,0,97.5V55.67a5.5,5.5,0,0,1,11,0V93H51.17a5.5,5.5,0,0,1,0,11Z" />
+                                <path class="cls-xp" d="M101.5,54.5A5.5,5.5,0,0,1,96,49V11H56.5a5.5,5.5,0,0,1,0-11h44A6.51,6.51,0,0,1,107,6.5V49A5.5,5.5,0,0,1,101.5,54.5Zm-1-43.5h0Z"
+                                />
+                            </g>
+                        </g>
+                    </svg>
+                </div>
+
+                <svg class="zm-playbtnsvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 134.63 134.63" width="120" height="120">
+                    <defs>
+                        <style>
+                            .cls-111 {
+                                opacity: 0.2;
+                            }
+
+                            .cls-2 {
+                                fill: #797979;
+                            }
+
+                            .cls-3 {
+                                fill: #fff;
+                                opacity: 1;
+                            }
+                        </style>
+                    </defs>
+                    <g>
+                        <g>
+                            <g class="cls-111 player-center-btnSet-bg">
+                                <circle cx="67.31" cy="67.31" r="66.31"></circle>
+                            </g>
+                            <path class="cls-2 player-center-btnSet-border" d="M67.31,1A66.31,66.31,0,1,1,1,67.31,66.31,66.31,0,0,1,67.31,1m0-1a67.31,67.31,0,1,0,67.31,67.31A67.39,67.39,0,0,0,67.31,0Z"></path>
+                            <path class="cls-3 video-center-color player-center-btnSet-iconColor" d="M99.76,70.62c1-.53,1-1.41,0-1.94L50.53,41.37a1.08,1.08,0,0,0-1.75,1V96.9a1.08,1.08,0,0,0,1.75,1Z"></path>
+                        </g>
+                    </g>
+                </svg>
+                <svg class="zm-pausebtnsvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+                    <defs>
+                        <style>
+                            .cls-101 {
+                                opacity: 0.3;
+                            }
+
+                            .cls-202 {
+                                /* fill: #040000; */
+                            }
+
+                            .cls-303 {
+                                fill: #797979;
+                            }
+
+                            .cls-404 {
+                                fill: #fff;
+                            }
+                        </style>
+                    </defs>
+                    <title>暂停，停止</title>
+                    <g id="图层_2" data-name="图层 2">
+                        <g id="图层_1-2" data-name="图层 1">
+                            <g class="cls-101">
+                                <path class="cls-202" d="M60,119.5A59.5,59.5,0,1,1,119.5,60,59.57,59.57,0,0,1,60,119.5Z" />
+                                <path class="cls-303" d="M60,1A59,59,0,1,1,1,60,59.07,59.07,0,0,1,60,1m0-1a60,60,0,1,0,60,60A60,60,0,0,0,60,0Z" />
+                            </g>
+                            <rect class="cls-404" x="39.88" y="39.81" width="17.38" height="40.38" rx="2" ry="2" />
+                            <rect class="cls-404" x="62.75" y="39.81" width="17.38" height="40.38" rx="2" ry="2" />
+                        </g>
+                    </g>
+                </svg>
+            </div>
+        </div>
+    </div>
+
+    <script src="jquery-1.11.3.min.js"></script>
+    <script src="powerange.js"></script>
+    <script src="video.js"></script>
+</body>
+
+</html>
